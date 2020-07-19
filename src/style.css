@@ -1,0 +1,35 @@
+
+section.section.is-bold { 
+background-image: url("https://bulma.io/images/bulma-type-white.png") center/cover !important; 
+
+}
+section.hero.is-fullheight{
+    background-color: #2d545e;
+}
+section.section.has-background{
+    background-color: #eacba2; 
+}
+.timeline-item-dateinner{
+    background: tan !important; 
+}
+.react-reveal{
+    background-color: #eacba2 !important; 
+}
+a{
+    color: white !important; 
+}
+hr{
+    background-color: black;
+}
+section.has-background1{
+    background-color: #2d545e;
+}
+.tile.is-child.has-background1{
+    background-color:#12343b; 
+}
+.tile.is-child.has-background2{
+    background-color:#eacba2; 
+}
+.section.has-background3{
+    background-color:#2d545e !important;
+}
