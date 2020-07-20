@@ -1,16 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bulma/css/bulma.css';
 import './style.css';
-import ScrollAnimation from 'react-animate-on-scroll';
 import { Timeline, TimelineItem }  from 'vertical-timeline-component-for-react';
+import { useMediaQuery } from 'react-responsive';
 
 function App()
 {  return (
   <section>
-    <script src="https://unpkg.com/scrollreveal@4"></script>
-  <section class="hero is-fullheight">
+    
+  <section class="hero is-mobile has-background1">
 
     <div class="hero-head ">
       <nav class="navbar">
@@ -20,19 +19,18 @@ function App()
 
             </a>
            
-            <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-              <span></span>
-              <span></span>
-              <span></span>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroA" role = "button">
+            
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            
             </span>
           </div>
           <div id="navbarMenuHeroA " class="navbar-menu">
             <div class="navbar-end">
 
-              <a class="navbar-item is-active has-text-white-ter">
-
-                Home
-              </a>
+              
               <span class="navbar-item">  
               <a href="https://www.linkedin.com/in/harshita-bhatt" target="_blank" class = "button is-primary is-inverted has-text-primary">Visit my LinkedIn</a>
               </span>
@@ -48,17 +46,18 @@ function App()
 
     <div class="hero-body">
       <div class="container has-text-centered">
-        <h1 class="title has-text-white-ter">
-          I'm Harshita
+        <h1 class="white-ter1">
+         Hi! I'm Harshita!
         </h1>
-        <h2 class="subtitle has-text-white-ter">
+        <img src="https://i.ibb.co/HVksYMC/circle-cropped-2.png"/>
+        <h1 class="white-ter2">
          I am a student at the University of Wisconsin Madison. <br />
          I am studying <i>Computer Science</i>, <i>Economics</i>, <i>Math</i>, and <i>Developmental Economics.</i> <br />
          Here's a quick snapshot of my undergraduate work!
-        </h2>
-       
+        </h1>
+      
+      
       </div>
-      <img src="https://i.ibb.co/HVksYMC/circle-cropped-2.png"/>
     </div>
 
 
@@ -76,7 +75,7 @@ function App()
 
   </section>
 
-<body>
+
 {/* <section class="section has-background is-primary">
     <div class="container">
       <h1 class="title has-text-centered">What am I studying at the University of Wisonconsin-Madison?</h1>
@@ -186,89 +185,102 @@ function App()
 
 
 
-</body>
-  <section class="has-background-grey-lighter">
-    <div class="container">
-    <a name = "extra"></a> <h1 class="title">Leadership & Extracurriculars</h1> <hr />
-    </div>
-    <nav class="level is-mobile">
-  <div class="level-item has-text-centered">
-    <div>
 
-      <p class="heading">Secretary</p>
-      <p class="title">Coding for Good</p>
+  <section class="section has-background-dark"><a name = "extra"></a>
+  <h1 class="title has-text-dark-ter has-text-centered has-text-light">
+          Leadership & Extracurriculars
+        </h1>
+        <hr />
+        
+<nav class="level">
+  <div class="level-item has-text-centered has-text-light">
+    <div>
+      <p class="heading">Secretary  </p>
+      <p class="title has-text-grey-light">Coding For Good  </p>
     </div>
   </div>
-  <div class="level-item has-text-centered">
+  <div class="level-item has-text-centered has-text-light">
     <div>
-      <p class="heading">Mentor</p>
-      <p class="title">Lead@Econ</p>
+      <p class="heading">Mentor  </p>
+      <p class="title has-text-grey-light">Lead@Econ  </p>
     </div>
   </div>
-  <div class="level-item has-text-centered">
+  <div class="level-item has-text-centered has-text-light">
     <div>
-      <p class="heading">Volunteer</p>
-      <p class="title">Badger Volunteers</p>
+      <p class="heading">Volunter  </p>
+      <p class="title has-text-grey-light">Badger Volunteers  </p>
     </div>
   </div>
-  <div class="level-item has-text-centered">
+  <div class="level-item has-text-centered has-text-light">
     <div>
-      <p class="heading">Tutor</p>
-      <p class="title">Teaching k-12 students</p>
+      <p class="heading">Tutor  </p>
+      <p class="title has-text-grey-light">Coding for K-12 Students  </p>
     </div>
+    
   </div>
-  <div class="level-item has-text-centered">
+  <div class="level-item has-text-centered has-text-light">
     <div>
-      <p class="heading">Research Analyst</p>
-      <p class="title">SDW Alumni</p>
+      <p class="heading">Volunteer  </p>
+      <p class="title has-text-grey-light">Badger Volunteers  </p>
     </div>
+    
   </div>
-  <div class="level-item has-text-centered">
+  <div class="level-item has-text-centered has-text-light">
     <div>
-      <p class="heading">Volunteer</p>
-      <p class="title">YWCA IT Fridays</p>
+      <p class="heading">Research Analyst  </p>
+      <p class="title has-text-grey-light">SDW Alumni  </p>
     </div>
+    
   </div>
 </nav>
-  </section>
+</section>
 
 
-<section class="section has-background1 ">
-    <div class="container">
-    <a name = "projects"></a> 
-      <h1 class="title has-text-white-ter">Projects</h1> <hr />
-    </div>
-    <nav class="level is-mobile">
-  <div class="level-item has-text-centered">
-    <div>
 
-      <p class="title has-text-white-ter">Rewind</p>
-    </div>
-  </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p class="title has-text-white-ter">What Makes an Inventor Analysis</p>
-    </div>
-  </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p class="title has-text-white-ter"> Liberty Lock</p>
-    </div>
-  </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p class="title has-text-white-ter">Globalization and the Youth</p>
-    </div>
-  </div>
-  <div class="level-item has-text-centered">
-    <div>
-      <p class="title has-text-white-ter">AWS DeepRacer</p>
-    </div>
-  </div>
 
+<section class="section has-background-warning">
+<a name = "projects"></a>
+  <h1 class="title has-text-dark-ter has-text-centered has-text-light">
+    
+          Projects
+        </h1>
+        <hr />
+
+<nav class="level">
+  <div class="level-item has-text-centered has-text-light">
+    <div>
+      
+      <p class="title has-text-light">Rewind</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered has-text-light">
+    <div>
+     
+      <p class="title has-text-light">What Makes an Inventor</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered has-text-light">
+    <div>
+      
+      <p class="title has-text-light">Youth and Globalization</p>
+    </div>
+  </div>
+  <div class="level-item has-text-centered has-text-light">
+    <div>
+     
+      <p class="title has-text-light">Liberty Lock</p>
+    </div>
+    
+  </div>
+  <div class="level-item has-text-centered has-text-light">
+    <div>
+      
+      <p class="title has-text-light">AWS DeepRacer</p>
+    </div>
+    
+  </div>
 </nav>
-  </section>
-
+</section>
 
   <footer class="footer">
   <div class="content has-text-centered">

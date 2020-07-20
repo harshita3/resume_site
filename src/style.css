@@ -33,3 +33,48 @@ section.has-background1{
 .section.has-background3{
     background-color:#2d545e !important;
 }
+.hero.is-fullheight{
+    background-color: #2d545e;
+}
+.hero.is-mobile.has-background1{
+    background-color: #2d545e
+}
+.level-item.has-text-centered.has-background2
+{
+    background-color:#eacba2; 
+}
+.level.has-background2{
+    background-color:#eacba2 !important; 
+}
+section.has-background-cool{
+    background-color: #eacba2 !important;
+}
+.white-ter1{
+    color: white;
+    font-size: 30px; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: solid gold; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.3em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 80% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: gold }
+  }
+  .white-ter2{
+      color: white; 
+      font-size:20px; 
+      letter-spacing: 0.03em;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
