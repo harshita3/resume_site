@@ -64,7 +64,7 @@ section.has-background-cool{
 }
 @keyframes typing {
     from { width: 0 }
-    to { width: 80% }
+    to { width: 100% }
   }
   
   /* The typewriter cursor effect */

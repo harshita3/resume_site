@@ -238,7 +238,7 @@ function App()
 
 
 
-<section class="section has-background-warning">
+<section class="section has-background1">
 <a name = "projects"></a>
   <h1 class="title has-text-dark-ter has-text-centered has-text-light">
     
