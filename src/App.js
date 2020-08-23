@@ -101,10 +101,10 @@ function App()
     dateText="06/2020 – Present"
     style={{ color: '#e8a87c !important'}}
   >
-    <h4><strong>Data Science Intern, Discover Financial Services </strong></h4>
+    <h4>Data Science Intern, Discover Financial Services</h4>
     <h4><i>Created methods to reduce the time Discover Personal Loan’s team spends pulling and analyzing account level data</i></h4>
     <p> <br />
-    Projects worked on: <strong>Discover Self Service Portal </strong>
+    Projects worked on: Discover Self Service Portal 
     <br /> <br />
     Single handedly developed a Python-based web application to reduce time spent pulling and analyzing customer data <br /> <br />
     Primary developer of tool with time-saving benefits of 8,000+ hours a year <br /> <br />
